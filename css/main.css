@@ -12,6 +12,7 @@
 nav {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(212, 132, 186);
 }
 nav ul {
   display: flex;
@@ -22,15 +23,19 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
+  border: 3px solid blue;
+  color: black;
 }
 #contact {
   background-color: teal;
   height: 200px;
-
 }
-#contact form{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap:  20px;
-    gr
+#contact form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.mage {
+  height: 100px;
+  width: 10px;
 }
